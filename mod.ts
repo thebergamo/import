@@ -89,7 +89,7 @@ const sharedEsbuildOptions:
 
 		jsxImportSource: denoConfiguration?.compilerOptions
 			?.jsxImportSource,
-		bundle: true,
+		//bundle: true,
 		platform: 'neutral',
 		write: false,
 		logLevel: 'silent',
